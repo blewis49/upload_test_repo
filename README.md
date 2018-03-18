@@ -1,8 +1,6 @@
-#This is a local repository started on my computer
-##Created Github repo from local machine
 
-# Attempt to make this a secondary header
-## This would be a tertiary header
+# How to create a local repo in git and upload to Github
+## Instructions for creating a local repository
 
 * I used mkdir insided a tmp dir to create the repo name
 * I used git init to generate the git directory
