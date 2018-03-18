@@ -2,11 +2,12 @@
 # How to create a local repo in git and upload to Github
 ## Instructions for creating a local repository
 
-* I used mkdir insided a tmp dir to create the repo name
+* At the command line, I used mkdir inside a tmp dir to create the repo name, upload_test_repo
 * I used git init to generate the git directory
-* I created a local README.md file with vim to commit and push
-* Note: Had to create a repository inside Github first
-* I did not create a README.md file at creation of repo in Github because I will upload one
+* I created a local README.md file with the vim text editor 
+* I staged the file with git add -A and git commit -m "comment"
+* Note: Before uploading the file 'pushing', I had to create a repository inside Github first
+* When creating a new repo in Github, I chose not to create a README.md file as I will upload one
 * I used git remote add origin https://github.com/username/new_repo_name
 * Then git push -u origin master  (not certain yet what the -u flag does)
 
