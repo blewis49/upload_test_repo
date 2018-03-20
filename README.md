@@ -1,8 +1,8 @@
+# How to create repositories (repos) with git and Github
+## Creating a local repo and then uploading it to Github with git
 
-# How to create a local repo in git and upload to Github
-## Instructions for creating a local repository
-
-* At the command line, I used mkdir inside a tmp dir to create the repo name, upload_test_repo
+* From your Github account, create a new repository - do not initialize with a README.md file
+* At the command line, use the mkdir inside the tmp dir to create the repo name, upload_test_repo
 * I used git init to generate the git directory
 * I created a local README.md file with the vim text editor 
 * I staged the file with git add -A and git commit -m "comment"
@@ -13,3 +13,9 @@
 
 These actions pushed a README.md file into my new repo on Github.com
  
+## Creating a repo by "forking" or cloning a repo from github
+
+* copy the URL from the repo on github
+* navigate to a directory on your local machine
+* use the command git clone URL
+* navigate to this new repo directory on your machine to add or edit files
