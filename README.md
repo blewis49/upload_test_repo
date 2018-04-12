@@ -12,4 +12,5 @@
 * Then git push -u origin master  (not certain yet what the -u flag does)
 
 These actions pushed a README.md file into my new repo on Github.com
- 
+
+This is a test line to verify my reinstall works and I can push to github. 
